@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetflixMovies</title>
+    <link rel="icon" type="image/png" href="photo/netflix.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.come/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item strong">
+                <a href="https://www.imdb.com/list/ls020735081/"><img src="photo/netflix1.jpg" width=100 height=50></a>
+            </li>
+            <li class="nav-item strong">
+                <a href=""><img src="photo/netflix1.jpg" width=100 height=5 0></a>
+            </li>
+
+            <div class="search-box">
+                <input class="search-txt" type="text" placeholder="Search.." name="searchBar" id="searchBar">
+
+            </div>
+        </ul>
+    </nav>
+
+    <!-- modal / movie description container -->
+    <div id="modal-container" class="modal">
+    </div>
+
+    <h1 class="title" style="color:white">Top 10 Netflix Series</h1>
+
+    <!-- movie list container -->
+    <div class="container" id="movies-container">
+        <ul id="moviesList"></ul>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

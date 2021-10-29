@@ -1,0 +1,138 @@
+{
+    "movies": [
+        {
+            "id": "1",
+            "title": "Daredevil",
+            "poster": "./photo/daredevil.png",
+            "year": "2015-2018",
+            "duration": "54 min",
+            "rate": 8.6,
+            "description": "A blind lawyer by day, vigilante by night. Matt Murdock fights the crime of New York as Daredevil.",
+            "genreId":"1"
+        },
+        {
+            "id": "2",
+            "title": "Money Heist",
+            "poster": "./photo/moneyheist.jpg",
+            "year": "2017-2021",
+            "duration": "70 min",
+            "rate": 8.2,
+            "description": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
+            "genreId": "1"
+        },
+        {
+            "id": "3",
+            "title": "Narcos",
+            "poster": "./photo/narcos.jpg",
+            "year": "2015-2017",
+            "duration": "49 min",
+            "rate": 8.8,
+            "description": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years.",
+            "genreId": "2"
+        },
+        {
+            "id": "4",
+            "title": "Stranger Things",
+            "poster": "./photo/strangerthings.jpg",
+            "year": "2016-2021",
+            "duration": "51 min",
+            "rate": 8.7,
+            "description": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
+            "genreId": "3"
+        },
+        {
+            "id": "5",
+            "title": "Godless",
+            "poster": "./photo/godless.jpg",
+            "year": "2017",
+            "duration": "452 min",
+            "rate": 8.3,
+            "description": "In the 1880s American West, murderous outlaw gang leader Frank Griffin hunts for ex-protege Roy Goode. Frank's chase leads him to La Belle, New Mexico--a town inhabited, after a mining disaster, almost entirely by women.",
+            "genreId": "4"
+        },
+        {
+            "id": "6",
+            "title": "Dark",
+            "poster": "./photo/dark.jpg",
+            "year": "2017-2020",
+            "duration": "60 min",
+            "rate": 8.8,
+            "description": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
+            "genreId": "5"
+        },
+        {
+            "id": "7",
+            "title": "Our Planet",
+            "poster": "./photo/ourplanet.jpg",
+            "year": "2019",
+            "duration": "403 min",
+            "rate": 9.3,
+            "description": "Documentary series focusing on the breadth of the diversity of habitats around the world, from the remote Arctic wilderness and mysterious deep oceans to the vast landscapes of Africa and diverse jungles of South America.",
+            "genreId": "7"
+        },
+        {
+            "id": "8",
+            "title": "The Fall",
+            "poster": "./photo/thefall.jpg",
+            "year": "2013-2016",
+            "duration": "60 min",
+            "rate": 8.1,
+            "description": "A seemingly cold but very passionate policewoman goes head to head with a seemingly passionate father who is in fact a cold serial killer in this procedural out of Belfast. The only thing they share is their common complexity.",
+            "genreId": "6"
+        },
+        {
+            "id": "9",
+            "title": "After Life",
+            "poster": "./photo/afterlife.jpg",
+            "year": "2019",
+            "duration": "30 min",
+            "rate": 8.4,
+            "description": "After Tony's wife dies unexpectedly, his nice-guy persona is altered into an impulsive, devil-may-care attitude; taking his old world by storm.",
+            "genreId": "8"
+        },
+        {
+            "id": "10",
+            "title": "Ozark",
+            "poster": "./photo/ozark.jpg",
+            "year": "2017-2022",
+            "duration": "60 min",
+            "rate": 8.4,
+            "description": "A financial advisor drags his family from Chicago to the Missouri Ozarks, where he must launder money to appease a drug boss.",
+            "genreId": "6"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "name": "Action, Crime, Drama"
+        },
+        {
+            "id": "2",
+            "name": "Biography, Crime, Drama"
+        },
+        {
+            "id": "3",
+            "name": "Drama, Fantasy, Horror"
+        },
+        {
+            "id": "4",
+            "name": "Action, Drama, Western"
+        },
+        {
+            "id": "5",
+            "name": "Crime, Drama, Mystery"
+        },
+        {
+            "id": "6",
+            "name": "Crime, Drama, Thriller"
+        },
+        {
+            "id": "7",
+            "name": "Documentary"
+        },
+        {
+            "id": "8",
+            "name": "Comedy, Drama"
+        }
+    ]
+}
